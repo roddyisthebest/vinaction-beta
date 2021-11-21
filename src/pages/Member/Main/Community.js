@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Community = () => {
   const [hello, setHello] = useState("1q2");
