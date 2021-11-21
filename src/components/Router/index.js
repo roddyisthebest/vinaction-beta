@@ -2,8 +2,8 @@ import { useRoutes } from "react-router-dom";
 
 import Home from "../../pages/Home";
 import Signin from "../../pages/Sign/SignIn";
-import SignoutMember from "../../pages/Sign/SignUp/Member/index";
-import SignoutOg from "../../pages/Sign/SignUp/Organization/index";
+import SignupMember from "../../pages/Sign/SignUp/Member/index";
+import SignupOg from "../../pages/Sign/SignUp/Organization/index";
 import Member from "../../pages/Member";
 import Main from "../../pages/Member/Main";
 import Community from "../../pages/Member/Main/Community";
@@ -40,8 +40,8 @@ import AdminDetail from "../../pages/Admin/Detail";
 const routes = [
   { path: "/", element: Home },
   { path: "/signin", element: Signin },
-  { path: "/signout/member", element: SignoutMember },
-  { path: "/signout/organization", element: SignoutOg },
+  { path: "/signup/member", element: SignupMember },
+  { path: "/signup/organization", element: SignupOg },
   {
     path: "/member",
     element: Member,
