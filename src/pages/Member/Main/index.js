@@ -10,7 +10,7 @@ const Main = () => {
 
   return (
     <div>
-      <h1>user-main</h1>
+      <h3>user-main</h3>
       <Outlet></Outlet>
     </div>
   );

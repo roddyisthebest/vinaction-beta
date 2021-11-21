@@ -1,7 +1,7 @@
 const Detail = () => {
   return (
     <div>
-      <h5>waiting List Detail</h5>
+      <h4>Organization - Detail</h4>
     </div>
   );
 };

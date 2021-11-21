@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
 
-const Organization = () => {
+const Chats = () => {
   return (
     <div>
-      <h1>단체 페이지</h1>
+      <h1>Chats</h1>
       <Outlet />
     </div>
   );
 };
 
-export default Organization;
+export default Chats;

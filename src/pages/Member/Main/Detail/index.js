@@ -1,12 +1,13 @@
 import { Outlet } from "react-router-dom";
 
-const Organization = () => {
+const Detail = () => {
   return (
     <div>
-      <h1>단체 페이지</h1>
+      <h4>main-Detail</h4>
       <Outlet />
     </div>
   );
 };
 
-export default Organization;
+export default Detail;
+
