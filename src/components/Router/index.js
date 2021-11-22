@@ -41,7 +41,7 @@ const routes = [
   { path: "/", element: Home },
   { path: "/signin", element: Signin },
   { path: "/signup/member", element: SignupMember },
-  { path: "/signup/organization", element: SignupOg },
+  { path: "/signup/organization", element: <SignupOg /> },
   {
     path: "/member",
     element: Member,
